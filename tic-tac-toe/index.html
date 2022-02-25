@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Крестики - нолики</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="chose-wariant">
+        <div class="chose">Как будем играть?</div>
+        <div class="select">
+          <botton class="select-button">Человек vs Человек</botton>
+          <botton class="select-button">Человек vs Комп</botton>
+        </div>
+        <div class="radio">
+          <div class="radio-botton">
+            <input type="radio" id="Easy" name="complexity" value="Easy" />
+            <label for="Easy">Easy</label>
+          </div>
+          <div class="radio-botton">
+            <input type="radio" id="Hard" name="complexity" value="Hard" />
+            <label for="Hard">Hard</label>
+          </div>
+        </div>
+      </div>
+      <div class="winner">
+        <div class="winner-text"></div>
+        <button class="new-game">Начать с начала</button>
+        <div class="table-winners">
+          <div class="table-winers-head">Таблица рекордов предыдущих 10 игр</div>
+        </div>
+      </div>
+      <main class="container">
+        <div class="board">
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+        </div>
+
+        <div class="alert">Тут уже стоит знак</div>
+      </main>
+      <footer class="footer">
+        <div class="footer-git">
+          <span>©</span>
+          <span>2022</span>
+          <a href="https://github.com/Lexxby" class="footer-link">github</a>
+        </div>
+        <div class="footer-rs">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School" />
+          <a href="https://rs.school/js-stage0/" class="footer-link">Rolling Scopes School</a>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
